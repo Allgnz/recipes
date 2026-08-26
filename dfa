@@ -1,0 +1,29 @@
+[33mcommit d4173c7737ad49ce5590d66085f644a77eddaa61[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: allan <156066865+Allgnz@users.noreply.github.com>
+Date:   Tue Jul 21 09:15:20 2026 +0100
+
+    Add content to coxinha.html
+
+[33mcommit 4a6f108eabd48f12ca39a82f45c7315b8e2bd637[m
+Author: allan <156066865+Allgnz@users.noreply.github.com>
+Date:   Tue Jun 30 22:57:11 2026 +0100
+
+    Add content to lemon-pie.html
+
+[33mcommit 9de4a10ac5058c3bacf5d173195f8e58cb7c3441[m
+Author: allan <156066865+Allgnz@users.noreply.github.com>
+Date:   Sun Jun 28 15:33:08 2026 +0100
+
+    Add content to pedemoca.html
+
+[33mcommit a16d6c701cb1308c7909fa0ce865d8f066dcebe5[m
+Author: allan <156066865+Allgnz@users.noreply.github.com>
+Date:   Sat Jun 27 16:28:34 2026 +0100
+
+    Create main and recipe pages and link them
+
+[33mcommit 597b8599bfca44dc1b8b899e6b621cfa21a0aac4[m
+Author: Allgnz <156066865+Allgnz@users.noreply.github.com>
+Date:   Sat Jun 27 16:06:36 2026 +0100
+
+    Initial commit
