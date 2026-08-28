@@ -24,7 +24,12 @@ body {
     position: fixed;
     top: 0;
     padding: 10px 16px;
-    background-color: wheat;
+    z-index: 1000;
+    background-color: white;
+}
+
+.topheader {
+    
 }
 
 .hlinks {
@@ -60,33 +65,47 @@ button {
 
 .content2 {
     display: flex;
-    background-color: wheat;
+    background: wheat;
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
     flex-direction: column;
     align-items: center;
     padding: 64px 0px;
-    height: 450px;
+    height: auto;
     justify-content: center;
     gap: 32px;
 }
 
+.content2 h1 {
+    font-family: Lucida Handwriting, cursive;
+}
+
 .deck {
     display: flex;
-    margin-top: 32px;
+    margin: 16px 0px 32px 0px;
     gap: 32px;
+    flex-wrap: wrap;
+    max-width: 1300px;
 }
 
 .card {
-    text-align: center;
+    text-align: left;
+    font-weight: bold;
     max-width: 200px;
     height: auto;
+    padding: 16px 16px 0px 16px;
+    background-color: white;
+    box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
+    border-radius: 3px;
+    transform: rotate(-1deg);
+    font-family: Lucida Handwriting, cursive;
 
 }
 
 .card img {
-    width: 150px;
-    height: auto;
-    border-radius: 25px;
-    box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
+    width: 200px;
+    height: 200px;
 }
 
 .content3 {
@@ -149,4 +168,3 @@ button {
     display: flex;
     justify-content: center;
 }
-
