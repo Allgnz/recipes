@@ -28,8 +28,14 @@ body {
     background-color: white;
 }
 
-.topheader {
-    
+.header img {
+    width: 100px;
+    height: auto;
+}
+
+.lefth {
+    display: flex;
+    gap: 16px;
 }
 
 .hlinks {
@@ -89,18 +95,30 @@ button {
     max-width: 1300px;
 }
 
+
 .card {
     text-align: left;
     font-weight: bold;
     max-width: 200px;
     height: auto;
-    padding: 16px 16px 0px 16px;
+    padding: 16px 16px 16px 16px;
     background-color: white;
-    box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
+    box-shadow: 1.7px 3.4px 3.4px hsla(0, 0%, 0%, 0.774);
     border-radius: 3px;
     transform: rotate(-1deg);
     font-family: Lucida Handwriting, cursive;
 
+}
+
+.card p {
+    margin: 16px 0 0;
+}
+
+a, a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    margin: 0px;
 }
 
 .card img {
