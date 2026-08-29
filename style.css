@@ -25,7 +25,7 @@ body {
     top: 0;
     padding: 10px 16px;
     z-index: 1000;
-    background-color: white;
+    background-color: rgb(255, 239, 216);
 }
 
 .header img {
@@ -185,4 +185,46 @@ a, a:link, a:visited, a:hover {
     padding: 32px;
     display: flex;
     justify-content: center;
+}
+
+.recipe {
+    display: flex;
+    margin-top: 90px;
+    background: wheat;
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+}
+
+.ingredients {
+width: 1200px;
+margin: 64px;
+background-color: white;
+padding: 16px;
+border-radius: 25px;
+box-shadow: 1.7px 3.4px 3.4px hsla(0, 0%, 0%, 0.774);
+}
+
+.steps {
+    margin: 64px 0px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 25px;
+    box-shadow: 1.7px 3.4px 3.4px hsla(0, 0%, 0%, 0.774);
+}
+
+.recipe img {
+    width: 400px;
+    height: 400px;
+    margin: 64px ;
+    box-shadow: 1.7px 3.4px 3.4px hsla(0, 0%, 0%, 0.774);
+    transform: rotate(2deg);
+}
+
+.steps h1 {
+    margin: 0px;
+}
+
+.ingredients h2 {
+    margin: 0px;
 }
