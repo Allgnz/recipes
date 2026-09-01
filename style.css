@@ -83,7 +83,18 @@ button {
     gap: 32px;
 }
 
-.content2 h1 {
+.content22 {
+    display: flex;
+    background: wheat;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0px;
+    height: auto;
+    justify-content: center;
+    gap: 32px;
+}
+
+.content2, .content22 h1 {
     font-family: Lucida Handwriting, cursive;
 }
 
