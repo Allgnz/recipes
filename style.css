@@ -63,6 +63,8 @@ button {
 .content1 img {
     border-radius: 25px;
     box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
+    width: auto;
+    height: 400px;
 }
 
 .description {
@@ -192,23 +194,46 @@ a:hover {
 
 .content3 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 450px;
     justify-content: center;
-    align-self: center;
     background-color: #ae866c;
+    align-items: center;
+    overflow: hidden;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.content3 img {
+    height: 425px;
+    width: auto;
+    margin: 0px;
+}
+
+.lycoris {
+    transform: rotate(-7deg);
+    margin-top: 64px;
+    margin-left: 54px;
+}
+
+.cupuaçu {
+    transform: rotate(10deg);
+    margin: 0px 54px 110px 32px;
 }
 
 .content3 p {
     font-size: xx-large;
-    margin: 0px 420px;
+    margin: 64px 40px;
     text-align: justify;
 }
 
 .content3 a {
     align-self: flex-end;
     font-weight: bold;
-    margin-right: 420px;
+    margin-right: 128px;
 }
 
 .content4 {
@@ -244,13 +269,11 @@ a:hover {
 }
 
 .footer {
-    background-color: white;
+    background-color: rgb(249, 245, 241);
     margin: 0px;
-    padding: 32px;
+    padding: 16px;
     display: flex;
     justify-content: center;
-    border-image: url(https://i.postimg.cc/DZYqPDTD/bordernew.png) 50 0 50 0 repeat;
-
 }
 
 .recipe {
