@@ -87,12 +87,12 @@ button {
 
 @font-face {
     font-family: legible;
-    src: url('https://fonts.googleapis.com/css?family=Atkinson Hyperlegible');
+    src: url('fonts/AtkinsonHyperlegible-Regular.ttf');
 }
 
 .page {
     margin: 100px 550px;
-    padding: 64px;
+    padding: 32px 64px;
     background-color: #ead8c2;
     font-family: legible;
     box-shadow: 1.7px 3.4px 3.4px hsla(0, 0%, 0%, 0.798);
@@ -106,14 +106,12 @@ button {
     align-items: center;
     margin-right: 16px;
     margin-bottom: -8px;
+    font-family: Lucida Handwriting, cursive;
+    font-size: small;
 }
 
 .page .card {
     margin: 32px 0px 32px 0px;
-}
-
-.page p {
-    font-size: 18px;
 }
 
 .content22 {
