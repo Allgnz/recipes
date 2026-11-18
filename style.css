@@ -328,6 +328,8 @@ a:hover {
     box-shadow: 1.7px 3.4px 3.4px hsla(0, 0%, 0%, 0.774);
 }
 
+
+
 .steps {
     margin: 64px 0px;
     max-width: 675px;
@@ -351,5 +353,9 @@ a:hover {
 }
 
 .ingredients h2 {
-    margin: 0px;
+    margin: 0px 0px 24px 0px;
+}
+
+.ingredients li {
+    margin: 0px 0px 4px 0px;
 }
